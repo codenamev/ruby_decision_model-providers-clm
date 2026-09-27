@@ -18,7 +18,7 @@ end
 if File.directory?(sibling("ruby-clm"))
   gem "ruby-clm", path: sibling("ruby-clm")
 else
-  gem "ruby-clm", github: "codenamev/ruby-clm", branch: "claude/clm-ruby-port-nbdg4y"
+  gem "ruby-clm", github: "codenamev/ruby-clm", branch: "main"
 end
 
 gem "minitest", "~> 5.0"
